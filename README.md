@@ -20,12 +20,17 @@ qc.apply(H, 0)
 This applies the Hadamard gate to the qubit zero 
 
 Step 3: Apply controlled gates of your choice like CNOT gate
+
 Example : 
+
 qc.cx(0, 1)       
+
 This applies the CNOT gate where the control qubit is 0 and the target quibit is 1
 
 Step 4: Measure the resultant statevector
+
 Example :
+
 qc.measure()
 
 
