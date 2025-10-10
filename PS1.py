@@ -1,6 +1,17 @@
 import math
 import cmath
 
+H = [[1 / math.sqrt(2), 1 / math.sqrt(2)],
+     [1 / math.sqrt(2), -1 / math.sqrt(2)]]
+X = [[0, 1],
+     [1, 0]]
+Y = [[0, -1j],
+     [1j, 0]]
+Z = [[1, 0],
+     [0, -1]]
+S = [[1, 0],
+     [0, 1j]]
+
 def tensor_product(a, b):
     result = []
     for row_1 in a:
@@ -48,17 +59,6 @@ def apply_cz(state, control, target, num_qubits):
         if ((i >> control) & 1) and ((i >> target) & 1):  
             new_state[i] = -state[i]  
     return new_state
-
-H = [[1 / math.sqrt(2), 1 / math.sqrt(2)],
-     [1 / math.sqrt(2), -1 / math.sqrt(2)]]
-X = [[0, 1],
-     [1, 0]]
-Y = [[0, -1j],
-     [1j, 0]]
-Z = [[1, 0],
-     [0, -1]]
-S = [[1, 0],
-     [0, 1j]]
 
 class QuantumCircuit:
     def __init__(self, num_qubits):
