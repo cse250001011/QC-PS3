@@ -8,11 +8,15 @@ How the program Works?
 Step 1: You have to initialise the circuit by specifying the number of qubits the quantum state has.
 
 Example :
+
 qc = QuantumCircuit(2)
 
 Step 2: Apply single gates like H to specified qubits.
+
 Example :
+
 qc.apply(H, 0)   
+
 This applies the Hadamard gate to the qubit zero 
 
 Step 3: Apply controlled gates of your choice like CNOT gate
