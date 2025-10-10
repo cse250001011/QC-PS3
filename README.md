@@ -20,6 +20,10 @@ Now to apply these single qubit gates to a qubit, I formed a function named appl
 
 Now rather than defining the long CX, CY
 
+Creating a class of QuantumCircuit :
+
+Lastly, I created a class named QuantumCircuit which holds the statevector and define methods to apply gates on it. __init__ is a constructor which runs automatically when you create a new circuit. self.num_qubits stores the number of qubits and self.state stores the number of possible qubits. Then I created various functions like apply() which calls the function apply_gate and acts on the statevector and cx, cy and cz which calls the function apply_cx, apply_cy and apply_cz and do their respective class.
+
 How the program Works?
 
 Step 1: You have to initialise the circuit by specifying the number of qubits the quantum state has.
