@@ -1,7 +1,12 @@
 # QC-PS1
 
 Introduction 
-This repository is created to provide the solution for the Problem Satement 1 given for the inductions of QC Club
+
+This repository is created to provide the solution for the Problem Satement 1 given for the inductions of QC Club. Although the code block is written by me, I kept the basic functions same as that from the Qiskit to minimize confusion while running the program. Hope you like it!
+
+My Thought Process
+
+The first thing to write in the program was to
 
 How the program Works?
 
