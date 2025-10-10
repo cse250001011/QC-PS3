@@ -12,11 +12,11 @@ Z = [[1, 0],
 S = [[1, 0],
      [0, 1j]]
 
-def tensor_product(a, b):
+def tensor_product(x, y):
     result = []
-    for row_1 in a:
-        for row_2 in b:
-            result.append([x * y for x in row_1 for y in row_2])
+    for row_1 in x:
+        for row_2 in y:
+            result.append([a * b for a in row_1 for b in row_2])
     return result
 
 def apply_gate(state, gate, target, num_qubits):
