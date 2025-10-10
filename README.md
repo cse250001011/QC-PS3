@@ -6,7 +6,13 @@ This repository is created to provide the solution for the Problem Satement 1 gi
 
 My Thought Process
 
-The first thing to write in the program was to
+After thinking for about half an hour in my today's English lecture, I got the idea of how to write the codes. The first thing to do was to define some important single qubit gates. So, I can not use numpy, I decided to construct the matrices by using lists in lists so form the gates. 
+
+Now what's the next the thing to do? Ya, form multiple qubits from single qubis using Tensor Product. So, I created a function named tensor_product so that it can take two matrices and don their Tensor Product Thing. this expands two matrices into a block-matrix, the nested loops take every pair of rows and produce the element-wise products in the correct order. This is also useful to build full 2^n * 2^n operators from single qubit gates.
+
+Now to apply these single qubit gates to a qubit, I formed a function named apply_gate to do the task. Sorry! After trying so hard, I did not get a single idea how to do that. So I had to get a code block from ChatGPT. (I promise I will replace it as soon as I understand it).
+
+Now rather than defining the long CX, CY
 
 How the program Works?
 
