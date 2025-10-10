@@ -4,7 +4,9 @@ Introduction
 This repository is created to provide the solution for the Problem Satement 1 given for the inductions of QC Club
 
 How the program Works?
+
 Step 1: You have to initialise the circuit by specifying the number of qubits the quantum state has.
+
 Example :
 qc = QuantumCircuit(2)
 
