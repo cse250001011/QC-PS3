@@ -75,9 +75,8 @@ class QuantumCircuit:
         self.state = apply_cz(self.state, control, target, self.num_qubits)
     def measure(self):
         print("Final statevector:")
-        for i, amp in enumerate(self.state):
-            if abs(amp) > 1e-10:
-                print(f"|{format(i, f'0{self.num_qubits}b')}> : {amp:.3f}")
+        for i, val in enumerate(self.state):
+                print(f"|{format(i, f'0{self.num_qubits}b')}> : {value:.3f}")
 
 if __name__ == "__main__":
     qc = QuantumCircuit(2)
