@@ -2,7 +2,7 @@
 
 Introduction 
 
-This repository is created to provide the solution for the Problem Satement 1 given for the inductions of QC Club. Although the code block is written by me, I kept the basic functions same as that from the Qiskit to minimize confusion while running the program. Hope you like it!
+This repository is created to provide the solution for the Problem Satement 1 given for the inductions of QC Club. Although the code block is written by me, I kept the basic functions same as that from the Qiskit to minimize confusion while running the program. Hope you like it! Just wanna share my experience, I just completed the theory and algos as well as completed the Section 1 by 3rd October. But because the deadline shifted to 10th, I decided to write the program another day. And here we are at 1 pm on 10th October and I am starting to write the program (Procrastination ftw) while the deadline is just 11 hours! Enough of this talk, Let's Start!!!
 
 My Thought Process
 
